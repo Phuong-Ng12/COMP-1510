@@ -1,0 +1,20 @@
+package TESTING;
+
+import java.util.Scanner;
+
+public class hasnextint {
+
+    public static void main(String[] args) {
+        String a;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("a: ");
+        a = scan.nextLine();
+        while (scan.hasNext()) {
+            System.out.println("" + scan.hasNextInt());
+            
+            System.out.println("" + scan.next());
+        }
+        scan.close();
+    }
+
+}

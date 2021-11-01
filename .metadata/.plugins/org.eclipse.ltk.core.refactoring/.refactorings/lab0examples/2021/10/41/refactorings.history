@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Die.java&apos; to &apos;COMP1510Lab04NguyenP/src/ca.bcit.comp1510.lab04&apos;&#x0D;&#x0A;- Original project: &apos;lab0examples&apos;&#x0D;&#x0A;- Destination element: &apos;COMP1510Lab04NguyenP/src/ca.bcit.comp1510.lab04&apos;&#x0D;&#x0A;- Original element: &apos;ca.bcit.comp1510.ch04.Die.java&apos;" description="Copy compilation unit" destination="=COMP1510Lab04NguyenP/src&lt;ca.bcit.comp1510.lab04" element1="/comp-1510-examples-master\/src&lt;ca.bcit.comp1510.ch04{Die.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1633339125161" units="1" version="1.0"/>
+</session>

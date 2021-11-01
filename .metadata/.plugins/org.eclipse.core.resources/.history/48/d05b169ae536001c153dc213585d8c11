@@ -1,0 +1,16 @@
+package TESTING;
+import java.util.Scanner;
+public class TestclassDriver {
+
+    public static void main(String[] args) {
+        
+        System.out.println("Enter your last name:");
+        Scanner scan = new Scanner (System.in);
+        String lastname = scan.nextLine();
+        
+        System.out.println("Enter your first name: ");
+        String firstname = scan.nextLine();
+        
+    }
+
+}

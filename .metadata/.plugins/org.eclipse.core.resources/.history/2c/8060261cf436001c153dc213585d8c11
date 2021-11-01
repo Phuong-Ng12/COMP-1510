@@ -1,0 +1,56 @@
+package ca.bcit.comp1510.lab06;
+
+/** Mathematics.
+ * @author Phuong
+ * @version 1.0
+ */
+public class Mathematics2 {
+
+    public static final double FOOT_TO_KILOMETRE_RATIO = 0;
+
+    public double getSquareArea(double d) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public double add(double d, double e) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public double multiply(double d, double e) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public double subtract(double d, double e) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public double divide(int i, int j) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public int absoluteValue(int i) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public int getRandomNumberBetweenTenAndTwentyButNotFifteen() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public double convertFeetToKilometres(double d) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public int sumOfProducts(int i, int j) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+   
+}

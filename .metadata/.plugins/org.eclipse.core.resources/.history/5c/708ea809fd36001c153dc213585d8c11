@@ -1,0 +1,27 @@
+package TESTING;
+
+import java.util.Random;
+
+public class randomExcluse15 {
+
+    public static void main(String[] args) {
+        Random ran = new Random();
+        boolean valid = true;
+        final int range = 10;
+        int randomNumberBetweenTenAndTwentyButNotFifteen = 0;
+        System.out.println("Random number: ");
+        while (valid) {
+            randomNumberBetweenTenAndTwentyButNotFifteen = ran.nextInt() * range + range;
+            valid = true;
+            final int exludedNum = 15;
+            while (valid) {
+                if (randomNumberBetweenTenAndTwentyButNotFifteen == exludedNum)
+                valid = false;
+            }
+        }
+        
+        
+
+    }
+
+}

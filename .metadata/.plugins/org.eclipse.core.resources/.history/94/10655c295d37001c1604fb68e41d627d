@@ -1,0 +1,11 @@
+package TESTING;
+
+public class wuiz {
+
+    public static void main(String[] args) {
+        String s1 = "apples";
+        String s2 = "oranges";
+        System.out.println(s1.compareTo(s2));
+    }
+
+}

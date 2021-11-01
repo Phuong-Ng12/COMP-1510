@@ -1,0 +1,53 @@
+package ca.bcit.comp1510.lab06;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+    public static void main(String[] args) {
+        
+        //A non-negative integer.
+        String userInput;
+        int findFactorial;
+        boolean isItInt = false;
+        
+        int i = 1;
+        int factorial = 1;
+        
+        Scanner scan = new Scanner(System.in);
+        
+        while (isItInt == false) {
+            System.out.println("Please enter an integer: ");
+            userInput = scan.nextLine();
+            
+            Scanner factorialScan = new Scanner(userInput);
+            while(factorialScan.hasNextInt()) {
+                findFactorial = factorialScan.nextInt();
+                if (findFactorial == 0) {
+                    isItInt = true;
+                    factorial = 1;
+                } 
+                if (findFactorial > 0) {
+                    isItInt = true;
+                    
+                    while (i <= findFactorial) {
+                        factorial = factorial * i;
+                        i++;
+                    }
+                } else {
+                   System.out.println("Invalid Input.");
+                }   
+               
+                System.out.println("Factorial of the input "
+                        + "integer is: " + factorial);
+            }
+            
+            factorialScan.close();
+            
+        }
+        
+        scan.close();
+        
+    }
+
+}

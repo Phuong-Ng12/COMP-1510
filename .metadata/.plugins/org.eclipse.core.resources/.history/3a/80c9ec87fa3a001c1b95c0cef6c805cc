@@ -1,0 +1,57 @@
+package ca.bcit.comp1510.lab07;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+
+import java.util.Arrays;
+
+import java.util.Collections;
+
+class TestThisTest {
+    
+    /**
+     * The TestThis object to test.
+     */
+    private TestThis test;
+
+    @Test
+    void testLargestIntIntInt1() {
+        int largest1 = test.largest(2,5,6);
+        assertEquals(6, largest1);
+    }
+    @Test
+    void testLargestIntIntInt2() {
+        int largest = test.largest(78,12,0);
+        assertEquals(78, largest);
+    }
+    @Test
+    void testLargestIntIntInt3() {
+        int largest = test.largest(12467,39082,230596);
+        assertEquals(230596, largest);
+    }
+
+    @Test
+    void testLargestListOfInteger1() {
+        ArrayList<Integer> arrayListOfIntegers1 = new ArrayList<>(Arrays.asList(4,6,8));
+        int max = Collections.max(arrayListOfIntegers1);
+        assertEquals(8, max);
+    }
+    
+    @Test
+    void testLargestListOfInteger2() {
+        ArrayList<Integer> arrayListOfIntegers2 = new ArrayList<>(Arrays.asList(90,23,74));
+        int max = Collections.max(arrayListOfIntegers2);
+        assertEquals(90, max);
+    }
+    
+    @Test
+    void testLargestListOfInteger3() {
+        ArrayList<Integer> arrayListOfIntegers3 = new ArrayList<>(Arrays.asList(183257,93257,2378968));
+        int max = Collections.max(arrayListOfIntegers3);
+        assertEquals(2378968, max);
+    }
+
+}

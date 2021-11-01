@@ -1,0 +1,19 @@
+package TESTING;
+import java.util.Scanner;
+public class Factorial {
+
+    public static void main(String[] args) {
+        String userInput;
+        int findFactorial;
+        boolean isItInt = false; 
+        Scanner readInput = new Scanner(System.in);
+        
+        while(isItInt == false) {
+            System.out.println("Please enter a positive integer: ");
+            userInput = readInput.nextLine();
+            userInput = userInput.replace(" "," ");
+            System.out.println(userInput);
+        }
+    }
+
+}
