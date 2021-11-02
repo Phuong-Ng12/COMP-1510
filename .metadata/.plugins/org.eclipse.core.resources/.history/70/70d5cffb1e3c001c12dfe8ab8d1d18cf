@@ -9,7 +9,7 @@ package ca.bcit.comp1510.lab07;
  *
  * Example: The output for n=11 should look exactly like this: 
  *  
- * 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+ * 	0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
  *
  * Fix all compile-time and run-time errors.
  *
